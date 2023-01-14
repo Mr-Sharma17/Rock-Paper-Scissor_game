@@ -23,11 +23,11 @@ body {
   text-align: justify;
 }
 #instruction-container > div > h2 {
-  font-size: 2.5rem;
+  font-size: 2rem;
 }
 #instruction-container > div > p,
 #instruction-container > div > ul {
-  font-size: 1.2rem;
+  font-size: 1rem;
   margin-top: 20px;
 }
 #display-container {
