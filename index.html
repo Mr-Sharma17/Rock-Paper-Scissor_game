@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="shortcut icon"
+      href="https://thumbnail.imgbin.com/0/25/11/imgbin-rock-paper-scissors-hand-game-drawing-scissors-e4J0KHA5jEeQZFf4d1CCLmeUW_t.jpg"
+      type="image/x-icon"
+    />
+    <link rel="stylesheet" href="index.css" />
+    <title>Rock Paper Scissor</title>
+  </head>
+  <body>
+    <!-- here is the heading -->
+    <header id="heading">
+      <h1><u>Rock Paper Scissor</u></h1>
+    </header>
+    <!-- from here main content begins -->
+    <div id="content-container">
+      <!-- instructions section -->
+      <aside id="instruction-container">
+        <div>
+          <h2><u>About</u></h2>
+          <p>
+            Rock Paper Scissor is a hand-game, originated in China, usually
+            played between two people, in which each player simultaneously forms
+            one of three shapes with an outstretched hand. These shapes are
+            <i>"ROCK"</i> (a closed fist), <i>"PAPER"</i> (a flat hand), and
+            <i>"SCISSOR"</i> (a fist with the index finger and middle finger
+            extended, forming a V).
+          </p>
+        </div>
+        <div>
+          <h2><u>How to play?</u></h2>
+          <p>
+            You just have to click any one of the three buttons of your choice
+            ("ROCK", "PAPER", "SCISSOR"), simultaneously computer will also made
+            a choice. And as per the <i>Rules</i> result of the round declares.
+          </p>
+        </div>
+        <div>
+          <h2><u>Rules</u></h2>
+          <ul>
+            <li>Rock beats Scissors, but loses to Paper.</li>
+            <li>Scissor beats Paper, but loses to Rock.</li>
+            <li>Paper beats Rock, but loses to Scissor.</li>
+            <li>If both are same, round will be declared as <i>DRAW</i>.</li>
+            <li>
+              For each WIN, you will be awarded <i>1 point</i>, in case of DRAW,
+              <i>no points</i> can be earned and if you LOSE, its
+              <i>GAME OVER!!</i>
+            </li>
+          </ul>
+        </div>
+      </aside>
+      <!-- main content section -->
+      <section id="display-container">
+        <h2>Computer's Choice: <span id="computer-choice"></span></h2>
+        <h2>Your's Choice: <span id="user-choice"></span></h2>
+        <h2>Round's Result: <span id="result"></span></h2>
+        <button id="Rock">Rock</button>
+        <button id="Paper">Paper</button>
+        <button id="Scissor">Scissor</button>
+      </section>
+      <!-- scoreboard section -->
+      <aside id="score-container">
+        <h2 id="scoreboard"><u>SCOREBOARD</u></h2>
+        <div>
+          <h2>Highscore : <span id="highscore"></span></h2>
+          <h2>Yourscore : <span id="userscore"></span></h2>
+        </div>
+      </aside>
+    </div>
+  </body>
+</html>
+<script src="./index.js"></script>
