@@ -78,6 +78,9 @@ body {
   font-size: 2rem;
 }
 @media only screen and (max-width: 425px) {
+  body {
+    background: burlywood;
+  }
   #heading {
     font-size: 1.2rem;
     margin: 0;
