@@ -15,11 +15,11 @@ Rock Paper Scissor is a hand-game, originated in China, usually played between t
 ### Concepts used
 >
 > - get and setItem using localstorage
-> - methods (Math.random, Math.max and Math.floor)
-> - media queries for responsiveness (works on laptop and mobile screen)
+> - methods ( Math.random, Math.max and Math.floor )
+> - media queries for responsiveness ( works on laptop and mobile screen )
 > - DOM Manipulation
 > - listening events using JS
-> - Higher Order Function (forEach)
+> - Higher Order Function ( forEach )
 > 
 
 # The UI
