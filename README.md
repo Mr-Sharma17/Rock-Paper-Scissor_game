@@ -5,6 +5,15 @@ Have a look *[here](https://rock-paper-scissor-virtualgame.netlify.app/)*.
 # About
 Rock Paper Scissor is a hand-game, originated in China, usually played between two people, in which each player simultaneously forms one of three shapes with an outstretched hand. These shapes are *"ROCK"* (a closed fist), *"PAPER"* (a flat hand), and *"SCISSOR"* (a fist with the index finger and middle finger extended, forming a V).
 
+### Features :
+>
+> - real-time updating scoreboard
+> - instructions to use
+> - responsive
+> - decent UI
+> - enjoy reliving childhood
+>
+
 ### Tech-Stacks used :
 >
 > - HTML
